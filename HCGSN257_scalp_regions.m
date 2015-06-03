@@ -1,0 +1,22 @@
+FpLChans=[27 33 34 38 39 47 48];
+FpRChans=[20 19 12 11  3  2 222];
+FLChans=[16 22 23 24 28 29 30 35 36  40  41  42  49  50];
+FRChans=[ 7 14 6 207 13 5 215 4 224 223 214 206 213 205];
+CLChans=[  9  17  43  44  45  51  52  53  57  58  59  60  64  65  66  71  72];
+CRChans=[186 198 197 185 132 196 184 144 204 195 183 155 194 182 164 181 173];
+TLChans=[ 55  56  62  63  69  70  74  75  84  85  96];
+TRChans=[221 212 211 203 202 193 192 180 179 171 170];
+PLChans=[ 76  77  78  79  80  86  87  88  89  97  98  99 100 110];
+PRChans=[172 163 154 143 131 162 153 142 130 161 152 141 129 128];
+OLChans=[107 108 109 116 117 118 125];
+ORChans=[160 151 140 150 139 127 138];
+
+
+%% bilateral
+FpChans=[FpLChans 26 FpRChans];
+FChans=[FLChans 21 15 FRChans];
+CChans=[CLChans 8 257 81 CRChans];
+TChans=[TLChans TRChans];
+PChans=[PLChans 90 101 119 PRChans];
+OChans=[OLChans 126 ORChans];
+
