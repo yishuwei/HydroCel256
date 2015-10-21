@@ -19,3 +19,7 @@ adjmat257.mat : Adjacency matrix for 257 electrodes
 adjmat150.mat : Adjacency matrix for 150 electrodes
 
 sensors.mat : EEGLAB data structure for 257 sensors
+
+ftstruct257.mat : FieldTrip data structure for 257 sensors
+
+ftstruct150.mat : FieldTrip data structure for 150 sensors
